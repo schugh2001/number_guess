@@ -6,10 +6,10 @@ class game:
         upperbound=int(input('enter a upperbound \n'))
         random_no=random.randint(lowerbound,upperbound)
         print('''Hey! the game starts now,
-         You have only 4 chance
+         You have only 5 chance
          BEST OF LUCK''')
         count=0
-        for i in range(0,4):
+        for i in range(0,5):
             count+=1
             print('enter your guess_no {} \n'.format(count))
             s=input().lower()
@@ -25,7 +25,7 @@ class game:
             if guess_no==random_no:
                 print('BRAVO! your guess is correct')
                 self.e()
-            if count==4:
+            if count==5:
                 print('Better luck next time')
                 print('The correct no.is {}'.format(random_no))
                 self.e()
