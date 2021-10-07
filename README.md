@@ -36,7 +36,7 @@ class game:
             if guess_no!=random_no and 10<abs(diff)<=30 and s.lower()!='hint':
                 print('You are not much far')
             if guess_no!=random_no and abs(diff)>30 and s.lower()!='hint':
-                print('You are very far')
+                print()
            
 
     def e(self):
