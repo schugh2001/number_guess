@@ -25,7 +25,7 @@ class game:
             if guess_no==random_no:
                 print('BRAVO! your guess is correct')
                 self.e()
-            if count==5:
+            if count==3:
                 print('Better luck next time')
                 print('The correct no.is {}'.format(random_no))
                 self.e()
@@ -36,7 +36,7 @@ class game:
             if guess_no!=random_no and 10<abs(diff)<=30 and s.lower()!='hint':
                 print('You are not much far')
             if guess_no!=random_no and abs(diff)>30 and s.lower()!='hint':
-                print()
+                print('You are very far')
            
 
     def e(self):
