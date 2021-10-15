@@ -23,10 +23,10 @@ class game:
                     self.e()
             diff=guess_no-random_no
             if guess_no==random_no:
-                print('BRAVO! your guess is correct')
+                print('BRAVO! your guess is Correct')
                 self.e()
             if count==4:
-                print('BRAVO! your guess is correct')
+                print('BRAVO! your guess is Correct')
                 self.e()
             if count==5:
                 print('Better luck next time')
